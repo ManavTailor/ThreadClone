@@ -1,18 +1,22 @@
-import Header from "@/components/Header"
+// import Footer from '@/components/Footer';
+import ThreadBody from '@/components/Body/threadb/threadb';
+import Header from '@/components/Header';
+import {useEffect, useState} from 'react';
+
+
+
+
+
 
 const Home = () => {
   return (
     <div>
       <Header />
-      {/* <div className="text-4xl">Hello</div> */}
+      <ThreadBody/>
+      
+      {/* <Footer /> */}
     </div>
   )
 }
 export default Home
-// export default function Home() {
-//   return (
-//       // const manav = fetch("localhost:5555/getData")
-//      <div className='text-4xl'>Hello</div>
-// )
 
-// }
